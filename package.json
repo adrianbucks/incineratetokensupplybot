@@ -1,0 +1,20 @@
+{
+  "name": "incineratetokensupplybot",
+  "version": "1.0.0",
+  "description": "telegram bot to get the realtime total supply amount for Incinerate Token",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adrianbucks",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrianbucks/incineratetokensupplybot.git"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.88.0"
+  }
+}
